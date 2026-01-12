@@ -284,6 +284,17 @@
             font-size: 1.3rem;
             font-weight: 600;
         }
+        .project-image img {
+            width: 200px;
+            height: 200px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
          /* Classes pour les dégradés des projets */
          .bg-python { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); }
          .bg-web { background: linear-gradient(135deg, #00d4ff 0%, #0071e3 100%); }
