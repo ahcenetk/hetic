@@ -13,6 +13,15 @@
             background-color: #ffffff;
             line-height: 1.6;
             transition: all 0.3s ease; /* Transition globale pour la fluidité */
+            /* ajout backgrounds pour le site */
+            background-image: linear-gradient(rgba(255, 255, 255,0.85), rgba(255, 255, 255, 0.85)), url('Fond.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+        .hero, .about, .skills, .projects, .contact {
+            background-color: transparent !important;
         }
         h1, h2, h3, .logo {
          font-family: 'Montserrat', sans-serif; /* Typographie 2 : Titres */
